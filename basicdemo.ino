@@ -3,6 +3,9 @@
 Adafruit_MLX90393 sensor = Adafruit_MLX90393();
 #define MLX90393_CS 10
 
+// SCL - Pin 19
+// SDA - Pin 18
+
 void setup(void)
 {
   Serial.begin(115200);
